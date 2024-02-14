@@ -1,0 +1,161 @@
+*{
+    margin:0px;
+}
+.navi:hover{
+    color: rgb(199, 146, 60);
+
+}
+   
+
+.front_img{
+    border:20px;
+    border-radius: 40%;
+}
+a{
+     border-bottom: 10px;
+     border-bottom-color: black ;
+     text-decoration: none;
+     margin-right: 20px;
+
+}
+
+.navi{
+    margin:0px;
+    border-bottom: 5px solid rgb(207, 144, 27);
+    padding: 40px;
+    display:flex;
+    position: fixed;
+    width: 100%;
+    justify-content:flex-end;
+    font-size: large;
+    background-color: peachpuff;
+    z-index: 2;
+}
+
+.main{
+  display: flex;
+justify-content: center;
+align-items: center;
+font-size: xx-large;
+padding: 300px;
+
+}
+#EDUCATION{
+font-size: larger;
+
+}
+  
+.am{
+padding-top: 100px;
+padding-bottom: 60px;
+padding-left:50px ;
+padding-right:50px ;
+ text-align: center;
+font-size: xx-large;
+float: right;
+}
+.edu{
+padding: 200px;
+padding-top:20px ;
+display: flex;
+justify-content: space-around;
+font-size: xx-large;
+
+}
+.cs{
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 700px;
+    margin-bottom: 100px;
+   border: 2px solid salmon;
+   border-radius: 15px;
+   background-color: bisque;
+    display:flex;
+    justify-self:flex-start;
+    font-size: x-large;
+    box-shadow: 10px 10px grey;
+
+}
+.ss{
+    padding: 100px;
+    padding-top: 50px;
+    padding-right: 10px;
+    border: 2px solid salmon;
+   border-radius: 15px;
+   background-color: bisque;
+    display:flex;
+    justify-self:flex-end;
+    font-size: x-large;
+    margin-bottom: 150px;
+    margin-left: 700px;
+    box-shadow: 10px 10px grey;
+}
+
+#PROJECTS{
+    margin-top: 300px;
+}
+.project-flex-outter{
+    display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 100px;
+   padding-top: 600px;
+   background-color:transparent;
+   
+}
+.project-flex-inner{
+    
+    border: 2px ;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: x-large;
+    background-color:transparent;
+}
+.pro-img{
+    position: absolute;
+    z-index: -1;
+    text-align: right;
+    
+}
+
+
+.intern{
+ text-align: center;
+    font-size: xx-large;
+    padding:250px;
+    padding-top: 400px;
+    padding-bottom: 350px;
+}
+.mem{
+    position: relative;
+  text-align: center;
+  font-size: xx-large;
+   width:500px;
+   height: 500px;
+   margin-top: 300px;
+}
+.inner_mem{
+    position: absolute;
+    top:100px;
+    left:550px;
+    z-index: -1;
+}
+#CONTACTS{
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 200px;
+}
+
+.ACHEIVEMENTS{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.sports{
+    
+    border-radius: 20px;
+    font-size: x-large;
+    box-shadow: 13px 13px grey;
+    background-color: darkcyan;
+}
